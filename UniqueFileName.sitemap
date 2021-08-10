@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="Home">
+        <siteMapNode url="~/About.aspx" title="About" />
+        <siteMapNode url="~/Admin/Default.aspx" title="Admins" />
+      <siteMapNode url="~/Tester/Default.aspx" title="Tester" />
+      <siteMapNode url="~/AuthUsers/Default.aspx" title="Auth Users Only" />
+
+      <!-- For links to outside resources, need to explicitly define what roles should be shown this section -->
+      <siteMapNode url="http://www.scottonwriting.net/sowBlog/" title="My Blog" roles="*" />
+    </siteMapNode>
+</siteMap>
