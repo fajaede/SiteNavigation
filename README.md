@@ -1,3 +1,3 @@
 # SiteNavigation
 Site met authenticatie en rollen
-gebruikt ASP.net
+gebruikt ASP.net en visual basic
